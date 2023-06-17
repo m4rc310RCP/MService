@@ -1,0 +1,15 @@
+foundation/cmo/service/utils/CopyFieldsUtils.class
+foundation/cmo/service/utils/MCoercingUtils$1.class
+foundation/cmo/service/utils/MCoercingUtils.class
+foundation/cmo/service/i18n/MMessageConfig.class
+foundation/cmo/service/graphql/mappers/annotations/MDate.class
+foundation/cmo/service/graphql/mappers/MCaseTypeMapper.class
+foundation/cmo/service/i18n/M.class
+foundation/cmo/service/utils/MMultiRegitry.class
+foundation/cmo/service/graphql/mappers/annotations/MCase.class
+foundation/cmo/service/utils/MGraphQLScalarTypeUtils.class
+foundation/cmo/service/graphql/mappers/GraphQLConfig.class
+foundation/cmo/service/MService.class
+foundation/cmo/service/utils/MCoercingUtils$MFunction.class
+foundation/cmo/service/graphql/mappers/annotations/MCase$EmumTypeCase.class
+foundation/cmo/service/graphql/mappers/MDateTypeMapper.class

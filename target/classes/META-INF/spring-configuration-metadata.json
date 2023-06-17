@@ -1,0 +1,23 @@
+{
+  "groups": [
+    {
+      "name": "foundation.cmo.service",
+      "type": "foundation.cmo.service.configurations.MServiceProperties",
+      "sourceType": "foundation.cmo.service.configurations.MServiceProperties"
+    },
+    {
+      "name": "foundation.cmo.service.mappers",
+      "type": "foundation.cmo.service.configurations.MServiceProperties$MMappers",
+      "sourceType": "foundation.cmo.service.configurations.MServiceProperties",
+      "sourceMethod": "public foundation.cmo.service.configurations.MServiceProperties.MMappers getMappers() "
+    }
+  ],
+  "properties": [
+    {
+      "name": "foundation.cmo.service.mappers.enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "foundation.cmo.service.configurations.MServiceProperties$MMappers"
+    }
+  ],
+  "hints": []
+}

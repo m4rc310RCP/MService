@@ -1,0 +1,5 @@
+foundation.cmo.service
+foundation.cmo.service.graphql.mappers
+foundation.cmo.service.graphql.mappers.annotations
+foundation.cmo.service.i18n
+foundation.cmo.service.utils

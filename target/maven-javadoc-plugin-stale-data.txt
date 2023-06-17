@@ -1,0 +1,100 @@
+@options
+@packages
+-classpath
+'/Users/mlsilva/.m2/repository/org/springframework/boot/spring-boot-starter-web/2.7.12/spring-boot-starter-web-2.7.12.jar:/Users/mlsilva/.m2/repository/org/springframework/boot/spring-boot-starter/2.7.12/spring-boot-starter-2.7.12.jar:/Users/mlsilva/.m2/repository/org/springframework/boot/spring-boot/2.7.12/spring-boot-2.7.12.jar:/Users/mlsilva/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.7.12/spring-boot-autoconfigure-2.7.12.jar:/Users/mlsilva/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.7.12/spring-boot-starter-logging-2.7.12.jar:/Users/mlsilva/.m2/repository/ch/qos/logback/logback-classic/1.2.12/logback-classic-1.2.12.jar:/Users/mlsilva/.m2/repository/ch/qos/logback/logback-core/1.2.12/logback-core-1.2.12.jar:/Users/mlsilva/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.17.2/log4j-to-slf4j-2.17.2.jar:/Users/mlsilva/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.2/log4j-api-2.17.2.jar:/Users/mlsilva/.m2/repository/org/slf4j/jul-to-slf4j/1.7.36/jul-to-slf4j-1.7.36.jar:/Users/mlsilva/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar:/Users/mlsilva/.m2/repository/org/yaml/snakeyaml/1.30/snakeyaml-1.30.jar:/Users/mlsilva/.m2/repository/org/springframework/boot/spring-boot-starter-json/2.7.12/spring-boot-starter-json-2.7.12.jar:/Users/mlsilva/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.5/jackson-databind-2.13.5.jar:/Users/mlsilva/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.5/jackson-annotations-2.13.5.jar:/Users/mlsilva/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.5/jackson-core-2.13.5.jar:/Users/mlsilva/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.13.5/jackson-datatype-jdk8-2.13.5.jar:/Users/mlsilva/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.13.5/jackson-datatype-jsr310-2.13.5.jar:/Users/mlsilva/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.13.5/jackson-module-parameter-names-2.13.5.jar:/Users/mlsilva/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.7.12/spring-boot-starter-tomcat-2.7.12.jar:/Users/mlsilva/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.75/tomcat-embed-core-9.0.75.jar:/Users/mlsilva/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/9.0.75/tomcat-embed-el-9.0.75.jar:/Users/mlsilva/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.75/tomcat-embed-websocket-9.0.75.jar:/Users/mlsilva/.m2/repository/org/springframework/spring-web/5.3.27/spring-web-5.3.27.jar:/Users/mlsilva/.m2/repository/org/springframework/spring-webmvc/5.3.27/spring-webmvc-5.3.27.jar:/Users/mlsilva/.m2/repository/org/springframework/spring-context/5.3.27/spring-context-5.3.27.jar:/Users/mlsilva/.m2/repository/org/springframework/spring-aop/5.3.27/spring-aop-5.3.27.jar:/Users/mlsilva/.m2/repository/org/springframework/spring-beans/5.3.27/spring-beans-5.3.27.jar:/Users/mlsilva/.m2/repository/org/springframework/spring-core/5.3.27/spring-core-5.3.27.jar:/Users/mlsilva/.m2/repository/org/springframework/spring-jcl/5.3.27/spring-jcl-5.3.27.jar:/Users/mlsilva/.m2/repository/org/springframework/spring-expression/5.3.27/spring-expression-5.3.27.jar:/Users/mlsilva/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:/Users/mlsilva/.m2/repository/io/leangen/graphql/graphql-spqr-spring-boot-starter/0.0.7/graphql-spqr-spring-boot-starter-0.0.7.jar:/Users/mlsilva/.m2/repository/io/leangen/graphql/graphql-spqr-spring-boot-autoconfigure/0.0.7/graphql-spqr-spring-boot-autoconfigure-0.0.7.jar:/Users/mlsilva/.m2/repository/io/leangen/graphql/graphql-spqr-spring-boot-annotations/0.0.7/graphql-spqr-spring-boot-annotations-0.0.7.jar:/Users/mlsilva/.m2/repository/io/leangen/graphql/spqr/0.12.1/spqr-0.12.1.jar:/Users/mlsilva/.m2/repository/net/dongliu/gson-java8-datatype/1.1.0/gson-java8-datatype-1.1.0.jar:/Users/mlsilva/.m2/repository/io/leangen/geantyref/geantyref/1.3.14/geantyref-1.3.14.jar:/Users/mlsilva/.m2/repository/com/graphql-java/graphql-java/18.5/graphql-java-18.5.jar:/Users/mlsilva/.m2/repository/com/graphql-java/java-dataloader/3.1.2/java-dataloader-3.1.2.jar:/Users/mlsilva/.m2/repository/com/graphql-java/graphql-java-extended-scalars/19.1/graphql-java-extended-scalars-19.1.jar:/Users/mlsilva/.m2/repository/io/github/classgraph/classgraph/4.8.151/classgraph-4.8.151.jar:/Users/mlsilva/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/mlsilva/.m2/repository/io/projectreactor/reactor-core/3.4.29/reactor-core-3.4.29.jar:/Users/mlsilva/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'1.8'
+-sourcepath
+'/Users/mlsilva/Library/Mobile Documents/com~apple~CloudDocs/Workspace Java/MService/src/main/java:/Users/mlsilva/Library/Mobile Documents/com~apple~CloudDocs/Workspace Java/MService/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2023. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/Users/mlsilva/Library/Mobile Documents/com~apple~CloudDocs/Workspace Java/MService/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'MService 1.0.0 API'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' '/Users/mlsilva/Library/Mobile Documents/com~apple~CloudDocs/Workspace Java/MService/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'MService 1.0.0 API'
+foundation.cmo.service.utils
+foundation.cmo.service.graphql.mappers
+foundation.cmo.service.graphql.mappers.annotations
+foundation.cmo.service
+foundation.cmo.service.i18n
+/Users/mlsilva/.m2/repository/org/springframework/boot/spring-boot-starter-web/2.7.12/spring-boot-starter-web-2.7.12.jar = 1684672795889
+/Users/mlsilva/.m2/repository/org/springframework/boot/spring-boot-starter/2.7.12/spring-boot-starter-2.7.12.jar = 1684672795881
+/Users/mlsilva/.m2/repository/org/springframework/boot/spring-boot/2.7.12/spring-boot-2.7.12.jar = 1684672807351
+/Users/mlsilva/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.7.12/spring-boot-autoconfigure-2.7.12.jar = 1684672807772
+/Users/mlsilva/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.7.12/spring-boot-starter-logging-2.7.12.jar = 1684672795881
+/Users/mlsilva/.m2/repository/ch/qos/logback/logback-classic/1.2.12/logback-classic-1.2.12.jar = 1682270223922
+/Users/mlsilva/.m2/repository/ch/qos/logback/logback-core/1.2.12/logback-core-1.2.12.jar = 1682270224161
+/Users/mlsilva/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.17.2/log4j-to-slf4j-2.17.2.jar = 1673482231024
+/Users/mlsilva/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.2/log4j-api-2.17.2.jar = 1673482231153
+/Users/mlsilva/.m2/repository/org/slf4j/jul-to-slf4j/1.7.36/jul-to-slf4j-1.7.36.jar = 1673482231204
+/Users/mlsilva/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar = 1671856563611
+/Users/mlsilva/.m2/repository/org/yaml/snakeyaml/1.30/snakeyaml-1.30.jar = 1673482231271
+/Users/mlsilva/.m2/repository/org/springframework/boot/spring-boot-starter-json/2.7.12/spring-boot-starter-json-2.7.12.jar = 1684672795879
+/Users/mlsilva/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.5/jackson-databind-2.13.5.jar = 1676952669074
+/Users/mlsilva/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.5/jackson-annotations-2.13.5.jar = 1676952667727
+/Users/mlsilva/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.5/jackson-core-2.13.5.jar = 1676952668110
+/Users/mlsilva/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.13.5/jackson-datatype-jdk8-2.13.5.jar = 1676952667615
+/Users/mlsilva/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.13.5/jackson-datatype-jsr310-2.13.5.jar = 1676952667660
+/Users/mlsilva/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.13.5/jackson-module-parameter-names-2.13.5.jar = 1676952667619
+/Users/mlsilva/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.7.12/spring-boot-starter-tomcat-2.7.12.jar = 1684672795957
+/Users/mlsilva/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.75/tomcat-embed-core-9.0.75.jar = 1684672808341
+/Users/mlsilva/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/9.0.75/tomcat-embed-el-9.0.75.jar = 1684672796321
+/Users/mlsilva/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.75/tomcat-embed-websocket-9.0.75.jar = 1684672796338
+/Users/mlsilva/.m2/repository/org/springframework/spring-web/5.3.27/spring-web-5.3.27.jar = 1682270227777
+/Users/mlsilva/.m2/repository/org/springframework/spring-webmvc/5.3.27/spring-webmvc-5.3.27.jar = 1682270227700
+/Users/mlsilva/.m2/repository/org/springframework/spring-context/5.3.27/spring-context-5.3.27.jar = 1682270225542
+/Users/mlsilva/.m2/repository/org/springframework/spring-aop/5.3.27/spring-aop-5.3.27.jar = 1682270224396
+/Users/mlsilva/.m2/repository/org/springframework/spring-beans/5.3.27/spring-beans-5.3.27.jar = 1682270224598
+/Users/mlsilva/.m2/repository/org/springframework/spring-core/5.3.27/spring-core-5.3.27.jar = 1682270231064
+/Users/mlsilva/.m2/repository/org/springframework/spring-jcl/5.3.27/spring-jcl-5.3.27.jar = 1682270231047
+/Users/mlsilva/.m2/repository/org/springframework/spring-expression/5.3.27/spring-expression-5.3.27.jar = 1682270225132
+/Users/mlsilva/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar = 1676952669342
+/Users/mlsilva/.m2/repository/io/leangen/graphql/graphql-spqr-spring-boot-starter/0.0.7/graphql-spqr-spring-boot-starter-0.0.7.jar = 1673411865760
+/Users/mlsilva/.m2/repository/io/leangen/graphql/graphql-spqr-spring-boot-autoconfigure/0.0.7/graphql-spqr-spring-boot-autoconfigure-0.0.7.jar = 1673411865784
+/Users/mlsilva/.m2/repository/io/leangen/graphql/graphql-spqr-spring-boot-annotations/0.0.7/graphql-spqr-spring-boot-annotations-0.0.7.jar = 1673411865760
+/Users/mlsilva/.m2/repository/io/leangen/graphql/spqr/0.12.1/spqr-0.12.1.jar = 1673497285985
+/Users/mlsilva/.m2/repository/net/dongliu/gson-java8-datatype/1.1.0/gson-java8-datatype-1.1.0.jar = 1671850059373
+/Users/mlsilva/.m2/repository/io/leangen/geantyref/geantyref/1.3.14/geantyref-1.3.14.jar = 1673389240725
+/Users/mlsilva/.m2/repository/com/graphql-java/graphql-java/18.5/graphql-java-18.5.jar = 1682270805729
+/Users/mlsilva/.m2/repository/com/graphql-java/java-dataloader/3.1.2/java-dataloader-3.1.2.jar = 1673481885647
+/Users/mlsilva/.m2/repository/com/graphql-java/graphql-java-extended-scalars/19.1/graphql-java-extended-scalars-19.1.jar = 1673389241872
+/Users/mlsilva/.m2/repository/io/github/classgraph/classgraph/4.8.151/classgraph-4.8.151.jar = 1673389242018
+/Users/mlsilva/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar = 1671717465250
+/Users/mlsilva/.m2/repository/io/projectreactor/reactor-core/3.4.29/reactor-core-3.4.29.jar = 1682270805385
+/Users/mlsilva/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar = 1671765173848
+/Users/mlsilva/Library/Mobile Documents/com~apple~CloudDocs/Workspace Java/MService/src/main/java = 1686874147000
+/Users/mlsilva/Library/Mobile Documents/com~apple~CloudDocs/Workspace Java/MService/target/generated-sources/annotations = 1687027465165
+/Users/mlsilva/Library/Mobile Documents/com~apple~CloudDocs/Workspace Java/MService/target/apidocs/tag-search-index.js = 1687027482336
+/Users/mlsilva/Library/Mobile Documents/com~apple~CloudDocs/Workspace Java/MService/target/apidocs/overview-tree.html = 1687027482254
+/Users/mlsilva/Library/Mobile Documents/com~apple~CloudDocs/Workspace Java/MService/target/apidocs/module-search-index.js = 1687027482330
+/Users/mlsilva/Library/Mobile Documents/com~apple~CloudDocs/Workspace Java/MService/target/apidocs/index.html = 1687027482261
+/Users/mlsilva/Library/Mobile Documents/com~apple~CloudDocs/Workspace Java/MService/target/apidocs/package-search-index.js = 1687027482333
+/Users/mlsilva/Library/Mobile Documents/com~apple~CloudDocs/Workspace Java/MService/target/apidocs/jquery-ui.overrides.css = 1687027482746
+/Users/mlsilva/Library/Mobile Documents/com~apple~CloudDocs/Workspace Java/MService/target/apidocs/index-all.html = 1687027482380
+/Users/mlsilva/Library/Mobile Documents/com~apple~CloudDocs/Workspace Java/MService/target/apidocs/allpackages-index.html = 1687027482328
+/Users/mlsilva/Library/Mobile Documents/com~apple~CloudDocs/Workspace Java/MService/target/apidocs/member-search-index.js = 1687027482335
+/Users/mlsilva/Library/Mobile Documents/com~apple~CloudDocs/Workspace Java/MService/target/apidocs/copy.svg = 1687027482490
+/Users/mlsilva/Library/Mobile Documents/com~apple~CloudDocs/Workspace Java/MService/target/apidocs/script.js = 1687027482486
+/Users/mlsilva/Library/Mobile Documents/com~apple~CloudDocs/Workspace Java/MService/target/apidocs/stylesheet.css = 1687027482484
+/Users/mlsilva/Library/Mobile Documents/com~apple~CloudDocs/Workspace Java/MService/target/apidocs/search-page.js = 1687027482504
+/Users/mlsilva/Library/Mobile Documents/com~apple~CloudDocs/Workspace Java/MService/target/apidocs/overview-summary.html = 1687027482392
+/Users/mlsilva/Library/Mobile Documents/com~apple~CloudDocs/Workspace Java/MService/target/apidocs/help-doc.html = 1687027482468
+/Users/mlsilva/Library/Mobile Documents/com~apple~CloudDocs/Workspace Java/MService/target/apidocs/element-list = 1687027481857
+/Users/mlsilva/Library/Mobile Documents/com~apple~CloudDocs/Workspace Java/MService/target/apidocs/search.html = 1687027482384
+/Users/mlsilva/Library/Mobile Documents/com~apple~CloudDocs/Workspace Java/MService/target/apidocs/allclasses-index.html = 1687027482323
+/Users/mlsilva/Library/Mobile Documents/com~apple~CloudDocs/Workspace Java/MService/target/apidocs/type-search-index.js = 1687027482334
+/Users/mlsilva/Library/Mobile Documents/com~apple~CloudDocs/Workspace Java/MService/target/apidocs/search.js = 1687027482495
