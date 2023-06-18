@@ -1,0 +1,6 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+	foundation.cmo.service.i18n.MMessageConfig,            \
+	foundation.cmo.service.graphql.sales.MEanApiService,   \
+	foundation.cmo.service.web.WebAutoConfiguration,       \
+	foundation.cmo.service.graphql.mappers.GraphQLConfig   \
+	
